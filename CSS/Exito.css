@@ -1,0 +1,27 @@
+body{
+    height: 90vh;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(44, 40, 40);
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+p{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

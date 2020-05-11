@@ -1,0 +1,55 @@
+@media (max-width: 600px){
+    
+    #productos{
+        display: inline;
+        justify-items: center;
+        
+        
+        
+    }
+
+    .contenido{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .producto{
+        margin-top: auto;
+        
+    }
+
+    .desc_elemento{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #seccion2{
+        display: inherit;
+        margin-top: 50px;
+    }
+
+    #titulo_carrusel{
+        margin-top: 100px;
+    }
+
+
+    #carrusel{
+        display: inline;            
+    }
+
+    #carrusel{
+        width: 300px;
+        margin-top: 20px; 
+    }
+
+    .segmento{
+        margin-top: 15px;
+    }
+
+    footer{
+        margin-top: 450px;
+    }
+
+}

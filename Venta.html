@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Venta</title>
+        <link rel="stylesheet" href="CSS/EstilosVenta.css"/>
+        <link rel="stylesheet" href="CSS/Grid.css" />        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="Index.html"><img id="logo" src="Imagenes/logo.webp" /></a>
+            <nav>
+                <ul>
+                    <li><a href="">Preguntas</a></li>
+                    <li><a href="Productos.html">Producto</a></li>
+                </ul>   
+            </nav>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="contenido_venta">
+                        <img src="Imagenes/box2.webp">
+                        <p class="titulo_venta">Producto 1</p>
+                        <p class="descripcion_venta">Miles de productos hay en el mercado, pero ninguno se parece a este.</p>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="modulo_pago">
+                        <form id="formulario" action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6ZFQ8HR8EZBEW" method="post">
+                            <label class="text_inp" for="nombre">Nombre</label><br>
+                            <input class="inp" type="text" name="nombre"><br>
+                            <label class="text_inp" for="mail">E-mail</label><br>
+                            <input class="inp" type="email" name="mail"><br>
+                            <label class="text_inp" for="telefono">Teléfono</label><br>
+                            <input class="inp" type="text" name="telefono"><br>
+                            <input class="boton" type="submit" value="Confirmar pago" name="submit"/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p id="term">Terminos y condiciones</p>
+            <p id="firm">JuanFe98</p>
+        </footer>
+    </body>
+</html>
